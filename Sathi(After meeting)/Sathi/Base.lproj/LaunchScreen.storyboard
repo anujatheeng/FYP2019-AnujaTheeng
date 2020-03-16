@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="splashController" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kzg-wp-d5U">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHb-P6-pbb">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SATHI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rm3-Jf-20D">
+                                                <rect key="frame" x="126" y="410" width="162" height="35"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be Stronger and Fearless" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZQ-oO-ttR">
+                                                <rect key="frame" x="90" y="461" width="234" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2nd logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ueg-PE-XcP">
+                                                <rect key="frame" x="115" y="278" width="184" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="22S-Dy-XYZ"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Rm3-Jf-20D" firstAttribute="top" secondItem="Ueg-PE-XcP" secondAttribute="bottom" constant="32" id="6as-Ua-I2q"/>
+                                            <constraint firstItem="Rm3-Jf-20D" firstAttribute="centerX" secondItem="Ueg-PE-XcP" secondAttribute="centerX" id="DoN-Mb-kjT"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ueg-PE-XcP" secondAttribute="trailing" constant="114" id="I0y-xZ-B0X"/>
+                                            <constraint firstItem="Rm3-Jf-20D" firstAttribute="leading" secondItem="KHb-P6-pbb" secondAttribute="leading" constant="126" id="MrY-ky-4dU"/>
+                                            <constraint firstAttribute="bottom" secondItem="UZQ-oO-ttR" secondAttribute="bottom" constant="336" id="Q6j-jl-2nb"/>
+                                            <constraint firstItem="UZQ-oO-ttR" firstAttribute="leading" secondItem="KHb-P6-pbb" secondAttribute="leading" constant="90" id="RWu-dl-VH4"/>
+                                            <constraint firstItem="Ueg-PE-XcP" firstAttribute="leading" secondItem="KHb-P6-pbb" secondAttribute="leading" constant="115" id="U3e-5O-RXv"/>
+                                            <constraint firstAttribute="trailing" secondItem="Rm3-Jf-20D" secondAttribute="trailing" constant="126" id="XKJ-26-6y2"/>
+                                            <constraint firstAttribute="trailing" secondItem="UZQ-oO-ttR" secondAttribute="trailing" constant="90" id="jy0-DO-gal"/>
+                                            <constraint firstItem="UZQ-oO-ttR" firstAttribute="centerX" secondItem="Rm3-Jf-20D" secondAttribute="centerX" id="kTV-Vb-I7O"/>
+                                            <constraint firstItem="UZQ-oO-ttR" firstAttribute="top" secondItem="Rm3-Jf-20D" secondAttribute="bottom" constant="16" id="qeu-Ta-kZU"/>
+                                            <constraint firstItem="Ueg-PE-XcP" firstAttribute="centerX" secondItem="KHb-P6-pbb" secondAttribute="centerX" id="v88-jv-4Te"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KHb-P6-pbb" firstAttribute="trailing" secondItem="Bxc-uD-iqW" secondAttribute="trailing" id="3kF-4C-p9M"/>
+                                    <constraint firstItem="KHb-P6-pbb" firstAttribute="leading" secondItem="Bxc-uD-iqW" secondAttribute="leading" id="CjL-3B-JN7"/>
+                                    <constraint firstItem="KHb-P6-pbb" firstAttribute="bottom" secondItem="Bxc-uD-iqW" secondAttribute="bottom" id="XRx-C8-hyd"/>
+                                    <constraint firstItem="KHb-P6-pbb" firstAttribute="top" secondItem="Bxc-uD-iqW" secondAttribute="top" id="pbG-A5-OeO"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="XNi-og-Tsr"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Bxc-uD-iqW"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kzg-wp-d5U" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="0qK-ug-Rif"/>
+                            <constraint firstItem="kzg-wp-d5U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3KU-BD-g92"/>
+                            <constraint firstItem="kzg-wp-d5U" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AY2-TD-5Xg"/>
+                            <constraint firstItem="kzg-wp-d5U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Apt-Pz-Eir"/>
+                            <constraint firstItem="kzg-wp-d5U" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DsY-Ju-0zH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2nd logo" width="563" height="401"/>
+    </resources>
+</document>
